@@ -1,0 +1,951 @@
+{
+    "airlinesList": [],
+    "search_params": {
+        "to_type": "anywhere",
+        "flyFrom_type": "radius",
+        "seats": {
+            "infants": 0,
+            "passengers": 1,
+            "adults": 1,
+            "children": 0
+        }
+    },
+    "hashtags": [
+        {
+            "count": 5,
+            "name": "departure:20-21"
+        },
+        {
+            "count": 1,
+            "name": "duration:15-16"
+        },
+        {
+            "count": 1,
+            "name": "2stops"
+        },
+        {
+            "count": 43,
+            "name": "duration:2-3"
+        },
+        {
+            "count": 3,
+            "name": "departure:22-23"
+        },
+        {
+            "count": 4,
+            "name": "duration:3-4"
+        },
+        {
+            "count": 33,
+            "name": "tuesday"
+        },
+        {
+            "count": 181,
+            "name": "direct"
+        },
+        {
+            "count": 1,
+            "name": "duration:21-22"
+        },
+        {
+            "count": 1,
+            "name": "duration:14-15"
+        },
+        {
+            "count": 43,
+            "name": "evening"
+        },
+        {
+            "count": 1,
+            "name": "duration:9-10"
+        },
+        {
+            "count": 7,
+            "name": "departure:11-12"
+        },
+        {
+            "count": 1,
+            "name": "duration:6-7"
+        },
+        {
+            "count": 17,
+            "name": "arrival:14-15"
+        },
+        {
+            "count": 20,
+            "name": "saturday"
+        },
+        {
+            "count": 134,
+            "name": "duration:1-2"
+        },
+        {
+            "count": 14,
+            "name": "departure:12-13"
+        },
+        {
+            "count": 31,
+            "name": "arrival:8-9"
+        },
+        {
+            "count": 10,
+            "name": "departure:8-9"
+        },
+        {
+            "count": 12,
+            "name": "departure:10-11"
+        },
+        {
+            "count": 52,
+            "name": "departure:6-7"
+        },
+        {
+            "count": 4,
+            "name": "arrival:16-17"
+        },
+        {
+            "count": 19,
+            "name": "sunday"
+        },
+        {
+            "count": 41,
+            "name": "thursday"
+        },
+        {
+            "count": 2,
+            "name": "duration:19-20"
+        },
+        {
+            "count": 10,
+            "name": "arrival:13-14"
+        },
+        {
+            "count": 2,
+            "name": "duration:24-25"
+        },
+        {
+            "count": 11,
+            "name": "departure:21-22"
+        },
+        {
+            "count": 8,
+            "name": "arrival:19-20"
+        },
+        {
+            "count": 37,
+            "name": "arrival:7-8"
+        },
+        {
+            "count": 4,
+            "name": "departure:17-18"
+        },
+        {
+            "count": 11,
+            "name": "arrival:15-16"
+        },
+        {
+            "count": 15,
+            "name": "departure:19-20"
+        },
+        {
+            "count": 2,
+            "name": "duration:22-23"
+        },
+        {
+            "count": 2,
+            "name": "duration:10-11"
+        },
+        {
+            "count": 23,
+            "name": "friday"
+        },
+        {
+            "count": 6,
+            "name": "arrival:21-22"
+        },
+        {
+            "count": 13,
+            "name": "monday"
+        },
+        {
+            "count": 10,
+            "name": "arrival:23-24"
+        },
+        {
+            "count": 5,
+            "name": "arrival:18-19"
+        },
+        {
+            "count": 9,
+            "name": "departure:16-17"
+        },
+        {
+            "count": 18,
+            "name": "1stop"
+        },
+        {
+            "count": 2,
+            "name": "arrival:10-11"
+        },
+        {
+            "count": 14,
+            "name": "departure:5-6"
+        },
+        {
+            "count": 20,
+            "name": "departure:13-14"
+        },
+        {
+            "count": 1,
+            "name": "duration:16-17"
+        },
+        {
+            "count": 7,
+            "name": "departure:14-15"
+        },
+        {
+            "count": 15,
+            "name": "arrival:9-10"
+        },
+        {
+            "count": 1,
+            "name": "duration:20-21"
+        },
+        {
+            "count": 11,
+            "name": "departure:7-8"
+        },
+        {
+            "count": 1,
+            "name": "duration:25-26"
+        },
+        {
+            "count": 5,
+            "name": "arrival:17-18"
+        },
+        {
+            "count": 2,
+            "name": "duration:13-14"
+        },
+        {
+            "count": 1,
+            "name": "departure:9-10"
+        },
+        {
+            "count": 6,
+            "name": "arrival:22-23"
+        },
+        {
+            "count": 5,
+            "name": "departure:18-19"
+        },
+        {
+            "count": 51,
+            "name": "wednesday"
+        },
+        {
+            "count": 141,
+            "name": "morning"
+        },
+        {
+            "count": 4,
+            "name": "arrival:0-1"
+        },
+        {
+            "count": 59,
+            "name": "afternoon"
+        },
+        {
+            "count": 15,
+            "name": "arrival:20-21"
+        },
+        {
+            "count": 8,
+            "name": "arrival:11-12"
+        },
+        {
+            "count": 6,
+            "name": "arrival:12-13"
+        },
+        {
+            "count": 1,
+            "name": "duration:12-13"
+        }
+    ],
+    "connections": [],
+    "currency": "EUR",
+    "all_stopover_airports": [
+        "CPH",
+        "BLL",
+        "TXL",
+        "NYO",
+        "SXF",
+        "JMK",
+        "BGY",
+        "STN",
+        "BOD"
+    ],
+    "_results": 5,
+    "airportsList": [
+        {
+            "filterName": "CPH",
+            "name": "Airport Copenhagen"
+        },
+        {
+            "filterName": "BLL",
+            "name": "Billund"
+        },
+        {
+            "filterName": "TXL",
+            "name": "Berlin Tegel"
+        },
+        {
+            "filterName": "NYO",
+            "name": "Stockholm Skavsta"
+        },
+        {
+            "filterName": "SXF",
+            "name": "Berlin Schönefeld"
+        },
+        {
+            "filterName": "JMK",
+            "name": "Mykonos Island National"
+        },
+        {
+            "filterName": "BGY",
+            "name": "Milan Bergamo International Airport"
+        },
+        {
+            "filterName": "STN",
+            "name": "London Stansted"
+        },
+        {
+            "filterName": "BOD",
+            "name": "Bordeaux–Mérignac"
+        }
+    ],
+    "currency_rate": 1,
+    "all_prices": {
+        "0-11": 10,
+        "22-24": 10,
+        "18-19": 23,
+        "35-38": 1,
+        "47-50": 1,
+        "12-13": 2,
+        "25-27": 31,
+        "24-25": 16,
+        "32-33": 1,
+        "17-18": 4,
+        "21-22": 1,
+        "13-14": 21,
+        "19-20": 16,
+        "28-30": 4,
+        "16-17": 1,
+        "20-21": 28,
+        "14-15": 30
+    },
+    "location_hashtags": [
+        "sightseeing&culture",
+        "nature",
+        "activities",
+        "family fun",
+        "beach",
+        "nightlife",
+        "romance",
+        "sports",
+        "events",
+        "adventure",
+        "diving&snorkeling",
+        "unusual",
+        "food&drink",
+        "music",
+        "winter sports",
+        "short break",
+        "skiing",
+        "surfing"
+    ],
+    "data": [
+        {
+            "quality": 30.99994,
+            "flyTo": "INI",
+            "mapIdto": "nis_rs",
+            "nightsInDest": null,
+            "airlines": [
+                "FR"
+            ],
+            "pnr_count": 1,
+            "fly_duration": "1h 30m",
+            "baglimit": {
+                "hand_length": 55,
+                "hold_height": 119,
+                "hand_height": 40,
+                "hold_length": 119,
+                "hold_weight": 20,
+                "hand_width": 20,
+                "hold_dimensions_sum": null,
+                "hold_width": 81,
+                "hand_weight": 10
+            },
+            "has_airport_change": false,
+            "distance": 647.32,
+            "bags_price": {
+                "1": 30,
+                "2": 60
+            },
+            "flyFrom": "BTS",
+            "dTimeUTC": 1557123000,
+            "p2": 1,
+            "p3": 1,
+            "p1": 1,
+            "dTime": 1557130200,
+            "found_on": [
+                "deprecated"
+            ],
+            "booking_token": "oKWrjE3p79Fphzv+baF3C2h1PDgCet9WaEXSzPuPgCEAv+on9q2YST/DjPlyl3WZuKwoHy5r5npNKffSIiTmgEoqIII/4MOeqSv45Ic1qZpJxoZ2mcSeewNdVESlZowasE7SRS0VEb14Yuo4uBPKxyiKmyHz4Qy383bKK0Tbq6wk55OkcoK26Db3+MorHknNqSG8oI8rD20UXzbYWe/CQJ9MsY8Aeud1bJHZJOUItIASAJyDrQW1U/n6O45R+DzawVgDWttm9kCfKYQ8D4B1KJl0lHi2CQFuU9wGlNY+YVNMK4Ctc++ybV7kKNVJhJGGLIcJLeDIROt7LxGpXk64ITL8iL9gU9GSapqIk3lp4+feVOAAHdOywJHRHSc9yLhNOq5OKxQD+qzoXdvHed1SwTBmvg0NnBh4heVAa3lTaY52jXpRBdNlSNqkTtsNex1bVKiQuae3E/AYQrMTPYHmWE3xWLArtbRHZ8E4eVaPdJKYDnbWUJ08pJOohnFbpgDjFCmB4X6+qmp1d0bQReGshKJwpveuc0QiTCN5+J+wSJyaQhznoSeezGw5+KqnjKIY1YrEZYZuaZTPpARzCJTzVQGoLx2OK9BSLT17wjyMZCD8tFNnOktya4fguuBaqT9HKzpGdVG3dy/a7YCmK3szU/5mma9TnjBJEup+P5YIyCgJVDv75ymJb6pCt2tCjoS3wPqP5ugsAnBumAdIGEkId62SknCAc99g9uFMO4K93JM2DCLOZBRscn6ahn5J3qMbXtJlHW18cGQiNaP+wxaB2A==",
+            "cityFrom": "Bratislava",
+            "mapIdfrom": "bratislava_sk",
+            "hashtags": [
+                "morning",
+                "monday",
+                "direct",
+                "duration:1-2",
+                "departure:8-9",
+                "arrival:9-10"
+            ],
+            "duration": {
+                "total": 5400,
+                "return": 0,
+                "departure": 5400
+            },
+            "id": "1e03238f46660000935695ed_0",
+            "conversion": {
+                "EUR": 7
+            },
+            "countryTo": {
+                "code": "RS",
+                "name": "Serbia"
+            },
+            "aTimeUTC": 1557128400,
+            "price": 7,
+            "routes": [
+                [
+                    "BTS",
+                    "INI"
+                ]
+            ],
+            "cityTo": "Niš",
+            "transfers": [],
+            "route": [
+                {
+                    "aTimeUTC": 1557128400,
+                    "refresh_timestamp": 1555663080,
+                    "bags_recheck_required": false,
+                    "return": 0,
+                    "latTo": 43.337222,
+                    "flight_no": 2987,
+                    "price": 1,
+                    "original_return": 0,
+                    "operating_carrier": "",
+                    "cityTo": "Niš",
+                    "mapIdfrom": "bratislava_sk",
+                    "lngFrom": 17.212778,
+                    "vehicle_type": "aircraft",
+                    "flyFrom": "BTS",
+                    "id": "1e03238f46660000935695ed_0",
+                    "dTimeUTC": 1557123000,
+                    "equipment": null,
+                    "mapIdto": "nis_rs",
+                    "combination_id": "1e03238f46660000935695ed",
+                    "dTime": 1557130200,
+                    "fare_family": "",
+                    "found_on": "deprecated",
+                    "flyTo": "INI",
+                    "source": "deprecated",
+                    "latFrom": 48.170278,
+                    "airline": "FR",
+                    "fare_classes": "N",
+                    "lngTo": 21.853611,
+                    "cityFrom": "Bratislava",
+                    "last_seen": 1555663080,
+                    "aTime": 1557135600,
+                    "guarantee": false,
+                    "fare_basis": "NNKAA"
+                }
+            ],
+            "popularity": 8388,
+            "facilitated_booking_available": false,
+            "aTime": 1557135600,
+            "countryFrom": {
+                "code": "SK",
+                "name": "Slovakia"
+            }
+        },
+        {
+            "quality": 32.99994,
+            "flyTo": "INI",
+            "mapIdto": "nis_rs",
+            "nightsInDest": null,
+            "airlines": [
+                "FR"
+            ],
+            "pnr_count": 1,
+            "fly_duration": "1h 30m",
+            "baglimit": {
+                "hand_length": 55,
+                "hold_height": 119,
+                "hand_height": 40,
+                "hold_length": 119,
+                "hold_weight": 20,
+                "hand_width": 20,
+                "hold_dimensions_sum": null,
+                "hold_width": 81,
+                "hand_weight": 10
+            },
+            "has_airport_change": false,
+            "distance": 647.32,
+            "bags_price": {
+                "1": 30,
+                "2": 60
+            },
+            "flyFrom": "BTS",
+            "dTimeUTC": 1555913400,
+            "p2": 1,
+            "p3": 1,
+            "p1": 1,
+            "dTime": 1555920600,
+            "found_on": [
+                "deprecated"
+            ],
+            "booking_token": "oKWrjE3p79Fphzv+baF3C2h1PDgCet9WaEXSzPuPgCEAv+on9q2YST/DjPlyl3WZuKwoHy5r5npNKffSIiTmgEoqIII/4MOeqSv45Ic1qZqNB+Kg1HKDiAb9eLEnyAF9CMmwOJvbHhf9NN649akx3LWTLRCerAVlY/nI9e4BXNM5pPANAmoG3UTZf0GIWpXNmGl7Y+lTCtf+JQRm4BmO+3o0LSMWHkkGeUWNKfMZUE8ewntf12gz9U+UKZxnjjXJU5rTYKna4JaQ0PNKdm+eQSHNACc+g+SF1tFa0da9DIGYeGUMrryyvSYis0/DPqtrPw2wOrTWnd86B3oZK2ASXVuKpiYVr24H6Zs7hk1AOkYmBW5l1T+op+ATpVcwsddQxmz3c095+6xmOIv2x1YlN7hJbYYrvs7NG4Xbu1aYXVoDNeEnHcqajiamUv3XBWVo9B9Gt9SAOOQdp4pEKlnIf2WUci0O09SFUvZg1MI43LXWJoqJ5xMtgI0rpoIV5yzKCa3k8YVHXHNt1x6CB0JFt6aWDV2Q1a1wAQFRmQ7F7NmrGI5TTwzxYg0n+FhQGNdssJYk1a3Cf2vKQRrk8ahV8lLCv2TKuGU6UxL4pEnGhbCRoZp1veoVJg/UVbKV4Soo7i4IJqA7WqQJZk6PRrMEY6iOtvo3hPM4IL6gud5BBcQfinTF8sCGPWLSBB8PpfEylGorARZl6adfVfiwZxCaEDpfwPRGG1htHzLFuWza68LJJ6cbEAG1EevGHTLMsqva0wFpELOzplXOyQU10jl2ZfHkayeV/NBzxHNfgzbM5lM=",
+            "cityFrom": "Bratislava",
+            "mapIdfrom": "bratislava_sk",
+            "hashtags": [
+                "morning",
+                "monday",
+                "direct",
+                "duration:1-2",
+                "departure:8-9",
+                "arrival:9-10"
+            ],
+            "duration": {
+                "total": 5400,
+                "return": 0,
+                "departure": 5400
+            },
+            "id": "1e03238f465800007e8e16b6_0",
+            "conversion": {
+                "EUR": 9
+            },
+            "countryTo": {
+                "code": "RS",
+                "name": "Serbia"
+            },
+            "aTimeUTC": 1555918800,
+            "price": 9,
+            "routes": [
+                [
+                    "BTS",
+                    "INI"
+                ]
+            ],
+            "cityTo": "Niš",
+            "transfers": [],
+            "route": [
+                {
+                    "aTimeUTC": 1555918800,
+                    "refresh_timestamp": 1555663708,
+                    "bags_recheck_required": false,
+                    "return": 0,
+                    "latTo": 43.337222,
+                    "flight_no": 2987,
+                    "price": 1,
+                    "original_return": 0,
+                    "operating_carrier": "",
+                    "cityTo": "Niš",
+                    "mapIdfrom": "bratislava_sk",
+                    "lngFrom": 17.212778,
+                    "vehicle_type": "aircraft",
+                    "flyFrom": "BTS",
+                    "id": "1e03238f465800007e8e16b6_0",
+                    "dTimeUTC": 1555913400,
+                    "equipment": null,
+                    "mapIdto": "nis_rs",
+                    "combination_id": "1e03238f465800007e8e16b6",
+                    "dTime": 1555920600,
+                    "fare_family": "",
+                    "found_on": "deprecated",
+                    "flyTo": "INI",
+                    "source": "deprecated",
+                    "latFrom": 48.170278,
+                    "airline": "FR",
+                    "fare_classes": "N",
+                    "lngTo": 21.853611,
+                    "cityFrom": "Bratislava",
+                    "last_seen": 1555663708,
+                    "aTime": 1555926000,
+                    "guarantee": false,
+                    "fare_basis": "NKINC"
+                }
+            ],
+            "popularity": 8388,
+            "facilitated_booking_available": false,
+            "aTime": 1555926000,
+            "countryFrom": {
+                "code": "SK",
+                "name": "Slovakia"
+            }
+        },
+        {
+            "quality": 32.99994,
+            "flyTo": "INI",
+            "mapIdto": "nis_rs",
+            "nightsInDest": null,
+            "airlines": [
+                "FR"
+            ],
+            "pnr_count": 1,
+            "fly_duration": "1h 30m",
+            "baglimit": {
+                "hand_length": 55,
+                "hold_height": 119,
+                "hand_height": 40,
+                "hold_length": 119,
+                "hold_weight": 20,
+                "hand_width": 20,
+                "hold_dimensions_sum": null,
+                "hold_width": 81,
+                "hand_weight": 10
+            },
+            "has_airport_change": false,
+            "distance": 647.32,
+            "bags_price": {
+                "1": 30,
+                "2": 60
+            },
+            "flyFrom": "BTS",
+            "dTimeUTC": 1556518200,
+            "p2": 1,
+            "p3": 1,
+            "p1": 1,
+            "dTime": 1556525400,
+            "found_on": [
+                "deprecated"
+            ],
+            "booking_token": "oKWrjE3p79Fphzv+baF3C2h1PDgCet9WaEXSzPuPgCEAv+on9q2YST/DjPlyl3WZuKwoHy5r5npNKffSIiTmgEoqIII/4MOeqSv45Ic1qZoxzQuT764wXLUKUdS8/9/rm3JJwq/NYqEIbeNS8kg/8xtgjE4gJdm30jnACBEOO+wA9fgESkVhiWE7txvYz3QkzTw9XpZ5BamzHbD+rw6PSvP/ujJJfCQmyyXFKoMpQ/F/kUWxs/n0p6/wNOVy405pjUPKOBwAjZ7JU5+esn7+RWV1qx9wUr7ACgTHfTfoLK7FrWPmoaYwtLaEmbLGFHE48HVg30Od3CEznU8QkhVehjHk14sWi05eecoCTF4QL8hapmRElCE8RBfmSyzZh5e7IL/p1wv46A5BMkGJAbmGn4PS1582xnEBvDcuURChR/cydaod097b17jmQERAoKC8+ASglCelkMVOoI0hfCn8Fl2ByZdBkULDyqwgg+jEDmJo0C9VI/OPIPWZ0ca4NYefuhk7obVybrUXNwPjagQ2Gxjak6gWVqZPQGFC2p4POO0NlhY9pAfZHKn8ZykJvBijG3jbhmbs1yg68GgSMqKGyiedcL7biS0voCR5OSgGrX9o+lLGLt403mw7nV5hjI67Acm0NXpUqjTgo6zTbXDBq/UZIHDHJofFzD5J6av5UYfZ6oHcPMZ2G69UAi6dQhTzVEY1O5mMP7ZG/LMelyZztl3C2GlCmRg2mYvOLD6S9UK5l+GAGus7gMbA4Mrsk0DG2RMSmY4xXMJ60Jcy2mS2QQ==",
+            "cityFrom": "Bratislava",
+            "mapIdfrom": "bratislava_sk",
+            "hashtags": [
+                "morning",
+                "monday",
+                "direct",
+                "duration:1-2",
+                "departure:8-9",
+                "arrival:9-10"
+            ],
+            "duration": {
+                "total": 5400,
+                "return": 0,
+                "departure": 5400
+            },
+            "id": "1e03238f465f0000254e3c35_0",
+            "conversion": {
+                "EUR": 9
+            },
+            "countryTo": {
+                "code": "RS",
+                "name": "Serbia"
+            },
+            "aTimeUTC": 1556523600,
+            "price": 9,
+            "routes": [
+                [
+                    "BTS",
+                    "INI"
+                ]
+            ],
+            "cityTo": "Niš",
+            "transfers": [],
+            "route": [
+                {
+                    "aTimeUTC": 1556523600,
+                    "refresh_timestamp": 1555661748,
+                    "bags_recheck_required": false,
+                    "return": 0,
+                    "latTo": 43.337222,
+                    "flight_no": 2987,
+                    "price": 1,
+                    "original_return": 0,
+                    "operating_carrier": "",
+                    "cityTo": "Niš",
+                    "mapIdfrom": "bratislava_sk",
+                    "lngFrom": 17.212778,
+                    "vehicle_type": "aircraft",
+                    "flyFrom": "BTS",
+                    "id": "1e03238f465f0000254e3c35_0",
+                    "dTimeUTC": 1556518200,
+                    "equipment": null,
+                    "mapIdto": "nis_rs",
+                    "combination_id": "1e03238f465f0000254e3c35",
+                    "dTime": 1556525400,
+                    "fare_family": "",
+                    "found_on": "deprecated",
+                    "flyTo": "INI",
+                    "source": "deprecated",
+                    "latFrom": 48.170278,
+                    "airline": "FR",
+                    "fare_classes": "N",
+                    "lngTo": 21.853611,
+                    "cityFrom": "Bratislava",
+                    "last_seen": 1555661748,
+                    "aTime": 1556530800,
+                    "guarantee": false,
+                    "fare_basis": "NKINC"
+                }
+            ],
+            "popularity": 8388,
+            "facilitated_booking_available": false,
+            "aTime": 1556530800,
+            "countryFrom": {
+                "code": "SK",
+                "name": "Slovakia"
+            }
+        },
+        {
+            "quality": 32.99994,
+            "flyTo": "BLL",
+            "mapIdto": "billund_dk",
+            "nightsInDest": null,
+            "airlines": [
+                "FR"
+            ],
+            "pnr_count": 1,
+            "fly_duration": "1h 30m",
+            "baglimit": {
+                "hand_length": 55,
+                "hold_height": 119,
+                "hand_height": 40,
+                "hold_length": 119,
+                "hold_weight": 20,
+                "hand_width": 20,
+                "hold_dimensions_sum": null,
+                "hold_width": 81,
+                "hand_weight": 10
+            },
+            "has_airport_change": false,
+            "distance": 714.84,
+            "bags_price": {
+                "1": 30.35,
+                "2": 60.7
+            },
+            "flyFrom": "PRG",
+            "dTimeUTC": 1556785500,
+            "p2": 1,
+            "p3": 1,
+            "p1": 1,
+            "dTime": 1556792700,
+            "found_on": [
+                "deprecated"
+            ],
+            "booking_token": "oKWrjE3p79Fphzv+baF3C2h1PDgCet9WaEXSzPuPgCEAv+on9q2YST/DjPlyl3WZuKwoHy5r5npNKffSIiTmgEoqIII/4MOeqSv45Ic1qZqP6V/Mq4oMCh3qAa8Pk2+KZFdwGRDEuNr39FFhl4wuqnzYfqbGCIcjRc60LD2C60H8PfsjyfYCDK/pbWbglbNqTc6IQH/yk6QdbagaqsExgFvXY5agzUy1NI5oODQ5S+rtpSjkPvAH7eUOkqSIBPmdBvKUV2GbSAVLChQHWM8F+o/tcRct1amhL+AYRqL6111WpYXOhtxtclz1gHA7R/YRyGnSk2N2hjahv+AlsI9INZxNuIzN5OTDWExrKFBsFbk7ANgxTiMIGhtYgzS0fsaDxbuMpfECgYodOR+9QctzLJ+9i3DD2Ml+oKFMwny/ubAUyWPE35OrrL+8mOs7tjHphbhHh4ERIr6hAo7OgdyDajCYo0jJ4ugY3+GK6PyruzvwMtl4kDBe3GHpYhsVJ3J0J27UpAiFgnTHSGElrSPKJL8mqj9lzPqxb3wRaFv59jbvf9scPB0nzEgq2gsbaagIMCtpj0mouGOOTxmsH7/QhwSilrOBBbMde5Qfhs2Ru82pGaecxhCj1TJpASjQYjFmUv9kZWx0q3rwkPtIhqgYWkYsYB80ix3lnR4tea9Oxi8ykXeRA1KoyhxV2X6QPPnnhgS8HOiqI7IM1k2mzOAn3ZwDtEtOi/tn1uASGqqDoRx6RbGDS/YamVJVL+PME6C+hWkARcPZKLclJ+sMsFhnKaNKYQbtFGQvUFB8TU6qetw=",
+            "cityFrom": "Prague",
+            "mapIdfrom": "prague_cz",
+            "hashtags": [
+                "morning",
+                "thursday",
+                "direct",
+                "duration:1-2",
+                "departure:10-11",
+                "arrival:11-12"
+            ],
+            "duration": {
+                "total": 5400,
+                "return": 0,
+                "departure": 5400
+            },
+            "id": "145c18c84662000031786f4f_0",
+            "conversion": {
+                "EUR": 9
+            },
+            "countryTo": {
+                "code": "DK",
+                "name": "Denmark"
+            },
+            "aTimeUTC": 1556790900,
+            "price": 9,
+            "routes": [
+                [
+                    "PRG",
+                    "BLL"
+                ]
+            ],
+            "cityTo": "Billund",
+            "transfers": [],
+            "route": [
+                {
+                    "aTimeUTC": 1556790900,
+                    "refresh_timestamp": 1555663619,
+                    "bags_recheck_required": false,
+                    "return": 0,
+                    "latTo": 55.740278,
+                    "flight_no": 8204,
+                    "price": 1,
+                    "original_return": 0,
+                    "operating_carrier": "",
+                    "cityTo": "Billund",
+                    "mapIdfrom": "prague_cz",
+                    "lngFrom": 14.26,
+                    "vehicle_type": "aircraft",
+                    "flyFrom": "PRG",
+                    "id": "145c18c84662000031786f4f_0",
+                    "dTimeUTC": 1556785500,
+                    "equipment": null,
+                    "mapIdto": "billund_dk",
+                    "combination_id": "145c18c84662000031786f4f",
+                    "dTime": 1556792700,
+                    "fare_family": "",
+                    "found_on": "deprecated",
+                    "flyTo": "BLL",
+                    "source": "deprecated",
+                    "latFrom": 50.100833,
+                    "airline": "FR",
+                    "fare_classes": "N",
+                    "lngTo": 9.151667,
+                    "cityFrom": "Prague",
+                    "last_seen": 1555663619,
+                    "aTime": 1556798100,
+                    "guarantee": false,
+                    "fare_basis": "NKAAD"
+                }
+            ],
+            "popularity": 12000,
+            "facilitated_booking_available": false,
+            "aTime": 1556798100,
+            "countryFrom": {
+                "code": "CZ",
+                "name": "Czechia"
+            }
+        },
+        {
+            "quality": 32.333275,
+            "flyTo": "CPH",
+            "mapIdto": "copenhagen_dk",
+            "nightsInDest": null,
+            "airlines": [
+                "FR"
+            ],
+            "pnr_count": 1,
+            "fly_duration": "1h 25m",
+            "baglimit": {
+                "hand_length": 55,
+                "hold_height": 119,
+                "hand_height": 40,
+                "hold_length": 119,
+                "hold_weight": 20,
+                "hand_width": 20,
+                "hold_dimensions_sum": null,
+                "hold_width": 81,
+                "hand_weight": 10
+            },
+            "has_airport_change": false,
+            "distance": 623.82,
+            "bags_price": {
+                "1": 30.35,
+                "2": 60.7
+            },
+            "flyFrom": "PRG",
+            "dTimeUTC": 1556772000,
+            "p2": 1,
+            "p3": 1,
+            "p1": 1,
+            "dTime": 1556779200,
+            "found_on": [
+                "deprecated"
+            ],
+            "booking_token": "oKWrjE3p79Fphzv+baF3C2h1PDgCet9WaEXSzPuPgCEAv+on9q2YST/DjPlyl3WZuKwoHy5r5npNKffSIiTmgEoqIII/4MOeqSv45Ic1qZoXgI57QWZ0YetTbuT6B3KEbHKuJBGjFNLPuZGnyCbcavskGpqwtt4/7sN3c8AaMw8Tt3Xt+kS2vCf/hhEQe6gQgVCsWFnqISOyi4BXZsD1Y1wKLAy8qvuTUXKzT8AeiPcVl5sQrVy9BNyV1Wc1MTlvjJ6v0S7RFnbqQbdCoY6f344yPbXb79Ssvu1Y/vNPu6xreVUNB8121HCH+DQdpi0DVIWOB6y9iXDN/JVbv0mYa3o9nFOXrOGHeQeYGpOb0KNwxpl8nAaZGhvOFKZshSGshRUhPv0RzIRpe+PcElG6KRDeRpWQiL62VQEHZCvkikDsknf3fZ24nMkKpksdaTH+aVPZM6xNCrfcjSiVz/m+o+YYT43e/s7byML8qZBmqNa0fWc6osp8PNNgj9KEIEJqRdcHbsKSDQfRVWU/+75l1HDO9OzJQXG9wZKSOMBKPoaFhdxRtanXR9o/euYb2Pc7C4EMfW9KUdAkIJx9NamjFAP0olA2FAaUEo61AhiYX1VrW/tK3PJYmx32J/U629srwIiWqSJdjFU87NjPolN7dw/UeeULZTN97fDsrd6BszklUJs1eHttol91rP2IMzaigLxe9reqr45GXm97m8KQq11DJCenp2LX+STc2UUa6jPP1nzZ3Hrkx1dxoGHKLOfP8Kh3Q2VNy2pAq1wnFWGyLAve63hg1dbfTSaoYJ4zUYk=",
+            "cityFrom": "Prague",
+            "mapIdfrom": "prague_cz",
+            "hashtags": [
+                "morning",
+                "thursday",
+                "direct",
+                "duration:1-2",
+                "departure:6-7",
+                "arrival:8-9"
+            ],
+            "duration": {
+                "total": 5100,
+                "return": 0,
+                "departure": 5100
+            },
+            "id": "145c07bb4662000028c63ab4_0",
+            "conversion": {
+                "EUR": 9
+            },
+            "countryTo": {
+                "code": "DK",
+                "name": "Denmark"
+            },
+            "aTimeUTC": 1556777100,
+            "price": 9,
+            "routes": [
+                [
+                    "PRG",
+                    "CPH"
+                ]
+            ],
+            "cityTo": "Copenhagen",
+            "transfers": [],
+            "route": [
+                {
+                    "aTimeUTC": 1556777100,
+                    "refresh_timestamp": 1555663943,
+                    "bags_recheck_required": false,
+                    "return": 0,
+                    "latTo": 55.620278,
+                    "flight_no": 8220,
+                    "price": 1,
+                    "original_return": 0,
+                    "operating_carrier": "",
+                    "cityTo": "Copenhagen",
+                    "mapIdfrom": "prague_cz",
+                    "lngFrom": 14.26,
+                    "vehicle_type": "aircraft",
+                    "flyFrom": "PRG",
+                    "id": "145c07bb4662000028c63ab4_0",
+                    "dTimeUTC": 1556772000,
+                    "equipment": null,
+                    "mapIdto": "copenhagen_dk",
+                    "combination_id": "145c07bb4662000028c63ab4",
+                    "dTime": 1556779200,
+                    "fare_family": "",
+                    "found_on": "deprecated",
+                    "flyTo": "CPH",
+                    "source": "deprecated",
+                    "latFrom": 50.100833,
+                    "airline": "FR",
+                    "fare_classes": "N",
+                    "lngTo": 12.650278,
+                    "cityFrom": "Prague",
+                    "last_seen": 1555663943,
+                    "aTime": 1556784300,
+                    "guarantee": false,
+                    "fare_basis": "NKAAD"
+                }
+            ],
+            "popularity": 92814,
+            "facilitated_booking_available": false,
+            "aTime": 1556784300,
+            "countryFrom": {
+                "code": "CZ",
+                "name": "Czechia"
+            }
+        }
+    ],
+    "ref_tasks": [],
+    "best_results": [],
+    "refresh": [],
+    "del": 0,
+    "all_airlines": [],
+    "time": 1,
+    "search_id": "31d98af1-0e02-4d18-a334-03083ac88de4"
+}

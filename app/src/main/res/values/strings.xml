@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kiwi Entry Test</string>
+    <string name="destination_photo_content_description">Destination photo</string>
 </resources>
