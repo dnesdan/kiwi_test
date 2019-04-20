@@ -1,7 +1,10 @@
 package cz.dnesdan.kiwi.test.data.model;
 
+import android.icu.text.TimeZoneFormat;
+
 import com.google.gson.annotations.SerializedName;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -67,8 +70,7 @@ public class Flight {
     public String getaTime() {
         Date date = new Date ();
         date.setTime(aTime*1000);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        return simpleDateFormat.format(date);
+        return SimpleDateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.SHORT).format(date);
     }
 
     public Long getPrice() {

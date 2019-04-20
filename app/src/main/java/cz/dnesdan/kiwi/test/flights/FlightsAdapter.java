@@ -20,6 +20,7 @@ import cz.dnesdan.kiwi.test.R;
 import cz.dnesdan.kiwi.test.data.KiwiApiInterface;
 import cz.dnesdan.kiwi.test.data.model.Flight;
 
+/**Adapter which displays information about flight**/
 public class FlightsAdapter extends RecyclerView.Adapter<FlightsAdapter.ViewHolder> {
 
     private static final String LOG_TAG = FlightsAdapter.class.getSimpleName();
@@ -44,7 +45,7 @@ public class FlightsAdapter extends RecyclerView.Adapter<FlightsAdapter.ViewHold
 
         holder.tvDestination.setText(flight.getCityTo() + " (" + flight.getCountryTo().getName() + ")");
         holder.tvFlyDate.setText(flight.getaTime());
-        holder.tvPrice.setText(flight.getPrice().toString() + " EUR");
+        holder.tvPrice.setText(flight.getPrice().toString() + " Kč");
         holder.tvFlyFrom.setText(flight.getCountryFrom().getCode() + " (" + flight.getCityFrom() + ")");
         holder.tvFlightDuration.setText(flight.getFlyDuration());
         Log.d(LOG_TAG, KiwiApiInterface.IMAGE_BASE_URL + flight.getMapIdto() + ".jpg");

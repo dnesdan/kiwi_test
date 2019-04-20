@@ -18,6 +18,7 @@ import cz.dnesdan.kiwi.test.R;
 import cz.dnesdan.kiwi.test.data.FlightsRemoteDataSource;
 import cz.dnesdan.kiwi.test.data.model.Flight;
 
+/** Activity which display 5 popuplar flights from Brno**/
 public class FlightsActivity extends AppCompatActivity implements FlightsContract.View {
 
     private static final String LOG_TAG = FlightsActivity.class.getSimpleName();

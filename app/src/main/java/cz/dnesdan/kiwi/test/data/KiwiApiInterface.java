@@ -3,7 +3,9 @@ package cz.dnesdan.kiwi.test.data;
 import cz.dnesdan.kiwi.test.data.model.Flights;
 import io.reactivex.Single;
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 
+/** Interface for describing Kiwi api endpoints **/
 public interface KiwiApiInterface {
     String URL = "https://api.skypicker.com/";
 
@@ -33,6 +35,6 @@ public interface KiwiApiInterface {
     // adults=1&
     // limit=45
 
-    @GET("/flights?v=3&sort=popularity&limit=5&fly_from=49.2-16.61-250km")
-    Single<Flights> getPopularFlights();
+    @GET("/flights?v=3&sort=popularity&limit=5&fly_from=49.2-16.61-250km&one_for_city=1&curr=CZK")
+    Single<Flights> getPopularFlights(@Query("locale") String locale);
 }

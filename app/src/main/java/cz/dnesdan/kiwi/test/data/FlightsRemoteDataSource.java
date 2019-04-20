@@ -3,6 +3,9 @@ package cz.dnesdan.kiwi.test.data;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
+
+import java.util.Locale;
+
 import cz.dnesdan.kiwi.test.BuildConfig;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -14,6 +17,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+/** Class for communication with the remote server **/
 public class FlightsRemoteDataSource implements FlightsDataSource {
 
     private static final String LOG_TAG = FlightsRemoteDataSource.class.getSimpleName();
@@ -77,7 +81,9 @@ public class FlightsRemoteDataSource implements FlightsDataSource {
     public void getFlights(@NonNull LoadFlightsCallback callback) {
         disposable = new CompositeDisposable();
 
-        Disposable flightsList = apiInterface.getPopularFlights()
+        String country = Locale.getDefault().getCountry();
+
+        Disposable flightsList = apiInterface.getPopularFlights(country)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(flights -> callback.onFlightsLoaded(flights.getData()),

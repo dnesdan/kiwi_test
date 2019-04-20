@@ -15,8 +15,6 @@ public class FlightsPresenter implements FlightsContract.Presenter {
     private FlightsContract.View flightsView;
     private FlightsRemoteDataSource source;
 
-    private boolean firstLoad = true;
-
     public FlightsPresenter(FlightsRemoteDataSource source, FlightsContract.View flightsView) {
         this.flightsView = flightsView;
         flightsView.setPresenter(this);
