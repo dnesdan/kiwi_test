@@ -10,6 +10,7 @@ import com.google.android.material.snackbar.Snackbar;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Lifecycle;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
@@ -84,7 +85,7 @@ public class FlightsActivity extends AppCompatActivity implements FlightsContrac
 
     @Override
     public boolean isActive() {
-        return true;
+        return getLifecycle().getCurrentState().isAtLeast(Lifecycle.State.STARTED);
     }
 
     @Override
