@@ -42,11 +42,12 @@ public class FlightsAdapter extends RecyclerView.Adapter<FlightsAdapter.ViewHold
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Flight flight = list.get(position);
 
-        holder.tvDestination.setText(flight.getCountryTo().getName());
+        holder.tvDestination.setText(flight.getCityTo() + " (" + flight.getCountryTo().getName() + ")");
         holder.tvFlyDate.setText(flight.getaTime());
-        holder.tvPrice.setText(flight.getPrice().toString());
-        holder.tvFlyFrom.setText(flight.getCityFrom());
-        Log.d(LOG_TAG, KiwiApiInterface.IMAGE_BASE_URL + flight.getMapIdto() + ".png");
+        holder.tvPrice.setText(flight.getPrice().toString() + " EUR");
+        holder.tvFlyFrom.setText(flight.getCountryFrom().getCode() + " (" + flight.getCityFrom() + ")");
+        holder.tvFlightDuration.setText(flight.getFlyDuration());
+        Log.d(LOG_TAG, KiwiApiInterface.IMAGE_BASE_URL + flight.getMapIdto() + ".jpg");
         Glide.with(holder.ivDestination).load(KiwiApiInterface.IMAGE_BASE_URL + flight.getMapIdto() + ".jpg")
                 .into(holder.ivDestination);
     }
@@ -78,6 +79,8 @@ public class FlightsAdapter extends RecyclerView.Adapter<FlightsAdapter.ViewHold
         TextView tvFlyDate;
         @BindView(R.id.tv_fly_from)
         TextView tvFlyFrom;
+        @BindView(R.id.tv_duration)
+        TextView tvFlightDuration;
 
         View item;
 

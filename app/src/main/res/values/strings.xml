@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Kiwi Entry Test</string>
     <string name="destination_photo_content_description">Destination photo</string>
+    <string name="fly_destination">Destination:</string>
+    <string name="fly_from">Fly from:</string>
+    <string name="fly_duration">Duration:</string>
 </resources>

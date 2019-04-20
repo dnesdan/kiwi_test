@@ -9,8 +9,8 @@ public class Flight {
     private String flyTo;
     private String flyFrom;
 
-    @SerializedName("flight_duration")
-    private String flightDuration;
+    @SerializedName("fly_duration")
+    private String flyDuration;
 
     private String distance;
 
@@ -40,8 +40,8 @@ public class Flight {
         return flyFrom;
     }
 
-    public String getFlightDuration() {
-        return flightDuration;
+    public String getFlyDuration() {
+        return flyDuration;
     }
 
     public String getDistance() {
@@ -80,7 +80,7 @@ public class Flight {
         return "Flight{" +
                 "flyTo='" + flyTo + '\'' +
                 ", flyFrom='" + flyFrom + '\'' +
-                ", flightDuration='" + flightDuration + '\'' +
+                ", flyDuration='" + flyDuration + '\'' +
                 ", distance='" + distance + '\'' +
                 ", mapIdto='" + mapIdto + '\'' +
                 ", cityTo='" + cityTo + '\'' +
